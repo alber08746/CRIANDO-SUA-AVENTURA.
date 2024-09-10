@@ -1,0 +1,47 @@
+body {
+    background-color: #e4e3e2; /* Alterado para um tom mais suave e desértico */
+    color: #3F2A1A; /* Alterado para um tom de marrom mais escuro, que combina com o tema de faroeste */
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajustado para ocupar a altura total da viewport */
+    margin: 0;
+    padding: 20px; /* Adicionado para evitar que o conteúdo grude nas bordas da tela */
+}
+
+button {
+    background-color: #6F4F28; /* Cor de fundo alterada para um marrom mais escuro, que remete ao faroeste */
+    color: #F4E0D6; /* Cor do texto alterada para um tom claro que contrasta com o fundo escuro */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Ajustado o padding para botões mais confortáveis de clicar */
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px; /* Ajustado o tamanho da fonte para melhor legibilidade */
+    cursor: pointer; /* Adiciona um cursor de mão para indicar que é clicável */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos botões */
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a cor de fundo */
+}
+
+button:hover {
+    background-color: #8F6C3C; /* Cor de fundo do botão ao passar o mouse, para um efeito visual agradável */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 800px; /* Ajustado para uma largura máxima mais apropriada para leitura */
+}
+
+img {
+    max-width: 100%; /* Alterado para garantir que a imagem se ajuste corretamente dentro da área de visualização */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona bordas arredondadas às imagens para um visual mais suave */
+}
+
